@@ -69,6 +69,23 @@ If you visit my website you will get free Robux.
 <iframe width="320" height="240" src="https://www.youtube.com/embed/xwIZZjSQjD4" frameborder="0" allowfullscreen style="margin-top: 20px;"></iframe>
 </div>
 <img src="pnlmtyzraecz.png"></img>
+ 
+ <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+ 
 </body>
 
 </html>
